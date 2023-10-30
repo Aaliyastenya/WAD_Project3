@@ -1,0 +1,22 @@
+<?php 
+
+    $conn = mysqli_connect("127.0.0.1", "root", "", "wad_project3");
+
+    $result = mysqli_query($conn, "SELECT * FROM students");
+
+
+    // Insert
+    // get data from form
+    // letakkan di var
+    // create query
+    // execute
+    
+    // Dalete
+    // create query delete
+    // execute
+
+    
+    // var_dump($result);
+    echo "<br/>";
+    var_dump(mysqli_fetch_object($result));
+?>
